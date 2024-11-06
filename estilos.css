@@ -158,7 +158,7 @@ body {
     padding: 5px;
     font-weight: 600;
     cursor: pointer;
-    color: #ffffff81;
+    color: #ffffff;
     transform: translate(0,-50%);
     transition: .5s ease;
     user-select: none;
@@ -166,7 +166,7 @@ body {
 
 .btn-left:hover,
 .btn-right:hover {
-    background-color: #333333d4;
+    background-color: #B299FF;
     color: #fff;
 }
 
