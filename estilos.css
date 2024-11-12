@@ -158,7 +158,7 @@ body {
     padding: 5px;
     font-weight: 600;
     cursor: pointer;
-    color: #ffffff;
+    color: #ffffff81;
     transform: translate(0,-50%);
     transition: .5s ease;
     user-select: none;
@@ -166,7 +166,7 @@ body {
 
 .btn-left:hover,
 .btn-right:hover {
-    background-color: #B299FF;
+    background-color: #333333d4;
     color: #fff;
 }
 
@@ -265,8 +265,60 @@ body {
     padding: 2% 0;
     margin-bottom: 20px;
 }
-.tambien{
+.tambien p{
     color:#B299FF;
+	font-size: 20px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+.linkradios{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	display: inline-flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+	justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.linkradiouno{
+    order:0;
+    flex: 0 1 auto;
+    align-self: auto;
+	width: 25%;
+	height: auto;
+}
+.linkradiodos{
+    order:0;
+    flex: 0 1 auto;
+    align-self: auto;
+	width: 25%;
+	height: auto;
+}
+.linkradiotres{
+    order:0;
+    flex: 0 1 auto;
+    align-self: auto;
+	width: 25%;
+	height: auto;
+}
+.linkradiocuatro{
+    order:0;
+    flex: 0 1 auto;
+    align-self: auto;
+	width: 25%;
+	height: auto;
+}
+@media(max-width: 1000px) {
+    .linkradios {
+        display: block;
+        .linkradiouno, .linkradiodos, .linkradiotres, .linkradiocuatro {
+            width: 100%;
+        }
+    }
 }
 
 .contenedor-payuno {
