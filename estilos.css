@@ -39,6 +39,20 @@ body {
     justify-content: center;
 }
 
+/* lluvia de nieve */
+
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	/*background-image: url(imagen/img124.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;*/
+	
+}
+
  /*   boton whatsapp  */
  .btn-wsp{
     position:fixed;
