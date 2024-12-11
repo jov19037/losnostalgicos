@@ -102,6 +102,8 @@ body {
     margin-top: 10px;
     border-radius: 15px;
     background-image: url(imagen/cabezaNavidad.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: rgba(50, 0, 203, 0.2);
 }
 
