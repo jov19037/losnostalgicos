@@ -39,6 +39,18 @@ body {
     justify-content: center;
 }
 
+/* luces de navidad */
+.luces {
+	background-image: url(https://lh6.googleusercontent.com/-0-h4Co-Y-nI/TuuwZct5hrI/AAAAAAAAB-g/RKjXYFZwlHY/s500/luces%25252012.gif);
+	background-repeat:repeat-x;
+	height:47px;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+/* fin luces de navidad */
+
 /* lluvia de nieve */
 
 #particles-js {
@@ -85,10 +97,11 @@ body {
 
 .cabeza {
     width: 90%;
-    height: 200px;
+    height: 450px;
     margin: 0 auto;
     margin-top: 10px;
     border-radius: 15px;
+    background-image: url(imagen/cabezaNavidad.png);
     background-color: rgba(50, 0, 203, 0.2);
 }
 
